@@ -4,6 +4,8 @@
 
 //You are given an n x n matrix isConnected where isConnected[i][j] = 1 if the ith city and the jth city are directly connected, and isConnected[i][j] = 0 otherwise.
 //Return the total number of provinces.
+
+// input :  isConnected = [[1,0,0],[0,1,0],[0,0,1]]
   
 class Provinces {
     public int findCircleNum(int[][] isConnected) {
